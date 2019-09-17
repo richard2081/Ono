@@ -130,3 +130,5 @@ LOGOUT_REDIRECT_URL = 'home'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 django_heroku.settings(locals())
+
+#last Command-----> heroku git:remote -a blogp-app-12
